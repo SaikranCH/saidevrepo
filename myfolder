@@ -1,1 +1,24 @@
-git is a source code management
+udo yum update -y --- updating server
+  sudo su ---- switch to root user
+  yum install git -y --- installing the software
+  git --version ----it shows git current vesrsion
+  git congig --global user.name "SaikranCH" ----to cofigure globally user name 
+  git config --global user.email "SaikranCH@gmail.com"---- to cofigure globally user email
+  git config --list ---- after setting the paths and passwords it is used to display the list of configurations.
+  ls----- checking progress purpose, to check is there any files are available are not
+  mkdir ---- create the directory
+  cd ---- change the directory
+  ls -a ----root directort of paths and directory purpose visibles
+  git init --- intialize a new empty repository. defaultly add in .git file
+  cd .. ----- to comeback previous directory
+  cat > myfile ---- it is used for creating the files purpose
+  cat myfile ----- it is used for content visible purpose
+  git status ----- complete git status visible
+  git add ---- to adding the file
+  git commit-m "1st commit from saigit" ----- to add the message content in that command. "-m for message"
+  git log----- completely logged files was available
+  git show ----- it is used to viewthe details on git object such as blobs,tags and commits
+  git remote add origin ---- add to remote origion connection progras purpose is using.
+  git push -u origin master ---- push the content from local branch master to remote branch masteron the remote repository.
+
+  it is a source code management
